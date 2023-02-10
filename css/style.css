@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{clear: both;}
+#header{
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+}
+#header .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#header .boxes .logo{
+    text-decoration: none;
+    padding-top: 37px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+}
+#header .boxes .logo a{
+    text-decoration: none;
+    color: white;
+}
+#header .boxes .menu ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: 12px;
+    font-size: 16px;
+}
+
+#header .boxes .menu ul{
+    list-style: none;
+    display: flex;
+    padding-top: 40px;
+}
+
+/* header finish */
+/* ------------------------------ */
+
+#fav{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#fav .has h1{
+    width: 60%;
+    font-size: 60px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+  margin: auto;
+  display: flex;
+justify-content: center;}
+
+#fav .has hr{
+
+    margin: 20px;
+    font-size: 2px;
+    color: orangered ;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    width: 7%;
+    margin:20px auto;
+}
+#fav .has p{
+    width: 60%;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+}
+
+
+
+#fav .has a{
+    text-decoration: none;
+    width: 10%;
+
+    margin-top: 80px;
+    color: white;
+    font-size: 15px;
+    background-color: orangered;
+    border-radius: 40px;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    transition: 0.5s
+}
+#fav .has a:hover{
+    background-color: rgb(104, 37, 12)
+}
+/* has finish */
+/* --------------------------------------- */
+
+#need{ width: 100%;
+height: 60vh;
+background-color: #F4623A;}
+
+#need .part2 h2{
+    color: white;
+    font-size: 40px;
+    padding-top: 120px;
+    
+
+}
+#need .part2 hr{
+    width: 5%;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+#need .part2 p{width: 55%;
+font-size: 20px;
+color: white;
+margin: 10px 0px;}
+
+#need .part2 a{
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* need finish */
+/* ------------------------------------------ */
+#service{
+    width: 100%;
+    height: 80vh;
+}
+
+#service h2{padding-top: 110px;
+font-size: 35px; color: #212529;}
+#service hr{
+    width: 5%;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 2px solid #F4623A;
+    margin: 20px 0px;
+}
+#service .boxes{
+    width: 80%;
+    margin: auto;
+display: flex;
+margin-top: 90px;
+}
+
+#service .boxes .box1 i{
+    font-size: 40px;
+    color: #F4623A;
+}
+#service .boxes .box2 i{
+    font-size: 40px;
+    color: #F4623A;
+}
+#service .boxes .box3 i{
+    font-size: 40px;
+    color: #F4623A;
+}
+#service .boxes .box4 i{
+    font-size: 40px;
+    color: #F4623A;
+}
+
+#service .boxes .box1 h3{
+    font-size: 25px; color: #212529;
+}
+#service .boxes .box2 h3{
+    font-size: 25px; color: #212529;
+}
+#service .boxes .box3 h3{
+    font-size: 25px; color: #212529;
+}
+#service .boxes .box4 h3{
+    font-size: 25px; color: #212529;
+}
+
+#service .boxes .box1 h5{
+    font-size: 20px;
+    color: gray;
+}
+#service .boxes .box2 h5{
+    font-size: 20px;
+    color: gray;
+}
+#service .boxes .box3 h5{
+    font-size: 20px;
+    color: gray;
+}
+#service .boxes .box4 h5{
+    font-size: 20px;
+    color: gray;
+}
+/* need finish */
+/* ----------------------------------------- */
+#picts{
+    width: 100%;
+    height: 70vh;
+    margin-top: 120px
+    
+    ;
+}
+#picts .pic1{
+    height: 40vh;
+    width: 33.333%;
+    float: left;
+    position: relative;
+}
+#picts .pic1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#picts .pic1 .overlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4623ad8;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#picts .pic1 .overlay1 h1 span{font-weight: lighter;
+font-size: 25px;}
+#picts .pic2 .overlay2 h1 span{font-weight: lighter;
+    font-size: 25px;}
+    #picts .pic3 .overlay3 h1 span{font-weight: lighter;
+        font-size: 25px;}
+        #picts .pic4 .overlay4 h1 span{font-weight: lighter;
+            font-size: 25px;}
+            #picts .pic5 .overlay5 h1 span{font-weight: lighter;
+                font-size: 25px;}
+                #picts .pic6 .overlay6 h1 span{font-weight: lighter;
+                    font-size: 25px;}
+#picts .pic1:hover .overlay1{opacity: 1;}
+
+#picts .pic2{
+    height: 40vh;
+    width: 33.333%;
+    float: left;
+    position: relative;
+}
+#picts .pic2 img{
+    width: 100%;
+    height: 100%;
+}
+#picts .pic2 .overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4623add;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#picts .pic2:hover .overlay2{opacity: 1;}
+#picts .pic3{
+    height: 40vh;
+    width: 33.333%;
+    float: left;
+    position: relative;
+}
+#picts .pic3 img{
+    width: 100%;
+    height: 100%;
+}
+#picts .pic3 .overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4623ada;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#picts .pic3:hover .overlay3{opacity: 1;}
+#picts .pic4{
+    height: 40vh;
+    width: 33.333%;
+    float: left;
+    position: relative;
+}
+#picts .pic4 img{
+    width: 100%;
+    height: 100%;
+}
+#picts .pic4 .overlay4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4623ad7;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#picts .pic4:hover .overlay4{opacity: 1;}
+#picts .pic5{
+    height: 40vh;
+    width: 33.333%;
+    float: left;
+    position: relative;
+}
+#picts .pic5 img{
+    width: 100%;
+    height: 100%;
+}
+#picts .pic5 .overlay5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4623ad7;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#picts .pic5:hover .overlay5{opacity: 1;}
+#picts .pic6{
+    height: 40vh;
+    width: 33.333%;
+    float: left;
+    position: relative;
+}
+#picts .pic6 img{
+    width: 100%;
+    height: 100%;
+}
+#picts .pic6 .overlay6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4623ad5;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#picts .pic6:hover .overlay6{opacity: 1;}
+/* ---------------------------------------------- */
+
+#fd{
+    width: 100%;
+height: 60vh;
+background-color: #212529;}
+
+#fd h1{
+    color: white;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: 120px;
+display: inline-block;
+}
+
+#fd a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px 30px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+}
+/* ------------------------------------- */
+#cont{
+    width: 100%;
+    height: 120vh;
+margin-top: 1000px;
+}
+#cont h2{
+    color: #212529;
+    font-size: 30px;
+}
+#cont hr{
+    width: 5%;
+    font-size: 10px;
+    color: #F4623A;
+    border: 2px solid orangered;
+    border-radius: 20px;
+}
+#cont h4{
+    font-size: 20px;
+    color: gray;
+    width: 42%;
+}
+#cont .con input{
+    width: 42%;
+    padding: 15px 0px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    
+}
+#cont .con textarea{
+    width: 42%;
+}
+
+#cont .con button{
+    width: 42%;
+}
+#cont .con .sumbit{
+    width: 42%;
+    padding: 20px 0px;
+    background-color: #f4623a9a;
+    border-radius: 24px;
+    color: black;
+    font-weight: bolder;
+}
+#cont .con .ti i{
+    color: grey;
+    font-size: 30px;
+}
+#cont .con .ti .tp{
+    font-size: 20px;
+}
+/* --------------------------------------- */
+
+#end{
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(128, 128, 128, 0.059);
+    padding-top: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.727);
+}
